@@ -1,0 +1,17 @@
+div{
+    /*border-color: black;
+    border-width: 1px;
+    border-style: solid;*/
+    background-color: #999;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    height: 50px;
+    float: left;
+}
+
+@media (min-width: 992px) {
+    div{
+        width: 30%; 
+        margin: 10px;
+    }
+}
